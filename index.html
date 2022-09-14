@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="whole">
+        <div class="container">
+            <div>
+                <h1>
+                    Enter First Number
+                    <input type="number" id="fnum">
+                </h1>
+            </div>
+            <div>
+                <h1>
+                    Enter Second Number
+                    <input type="number" id="snum">
+                </h1>
+            </div>
+            <div>
+                <h1>
+                    Enter a Operator
+                    <input type="text" id="op">
+                </h1>
+            </div>
+            <div>
+                <button type="button" onclick="calculate()" id="btn">Click For Result</button>
+            </div>
+            <div>
+                <h1>
+                    Result =<u id="res"></u>
+                </h1>
+            </div>
+        </div>
+        <div class="side">
+            <h1>List of Operators</h1>
+            <h3>+ &emsp; -------&emsp; ADDITION</h3>
+            <h3>- &emsp; ------- &emsp;SUBTRACTION</h3>
+            <h3>* &emsp; ------- &emsp;MULTIPLICATION</h3>
+            <h3>/ &emsp; -------&emsp; DIVISION</h3>
+            <h3>% &emsp; ------- &emsp;MODULUS</h3>
+            <h3>^ &emsp; -------&emsp; EXPONENTIATION</h3>
+        </div>
+    </div>
+</body>
+
+</html>
