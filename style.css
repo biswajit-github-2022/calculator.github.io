@@ -29,6 +29,14 @@ body{
     border-style:dotted;
 }
 
+@media only screen and (max-width: 965px) {
+    .whole {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 
 
